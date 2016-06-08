@@ -10,7 +10,49 @@
     tools:context="com.hbadhani.android.communicator.TCPCommunicatorActivity">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/starttext"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="@string/tcpstartbutton"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tcpporttext"
+        android:id="@+id/textView3"
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/tcpPortNumText"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/btnView"
+        android:layout_alignStart="@+id/btnView"
+        android:text="@string/tcpportnumber"
+        android:layout_alignRight="@+id/btnView"
+        android:layout_alignEnd="@+id/btnView" />
+
 </RelativeLayout>
