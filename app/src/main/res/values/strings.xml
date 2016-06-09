@@ -4,4 +4,8 @@
     <string name="tcpstartbutton">Start TCP Server</string>
     <string name="tcpporttext">Port</string>
     <string name="tcpportnumber">38484</string>
+
+    <string name="title_activity_full_screen_image_viewer">FullScreenImageViewerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
