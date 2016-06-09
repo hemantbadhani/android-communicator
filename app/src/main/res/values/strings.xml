@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Communicator</string>
+    <string name="app_name">Android Communicator</string>
     <string name="starttext">TCP Server:</string>
     <string name="tcpstartbutton">Start TCP Server</string>
     <string name="tcpporttext">Port</string>
